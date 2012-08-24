@@ -1961,6 +1961,7 @@ def GenerateOutput(target_list, target_dicts, data, params):
     srcdir_prefix = '$(srcdir)/'
 
   flock_command= 'flock'
+  flock_command = './gyp-mac-tool flock'
   header_params = {
       'default_target': default_target,
       'builddir': builddir_name,
