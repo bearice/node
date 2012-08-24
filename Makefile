@@ -37,7 +37,7 @@ out/Debug/node:
 	$(MAKE) -C out BUILDTYPE=Debug V=$(V)
 
 out/Makefile: common.gypi deps/uv/uv.gyp deps/http_parser/http_parser.gyp deps/zlib/zlib.gyp deps/v8/build/common.gypi deps/v8/tools/gyp/v8.gyp node.gyp config.gypi
-	$(PYTHON) tools/gyp_node -f make
+	$(PYTHON) tools/gyp_node -f make-linux
 
 install: all
 	$(PYTHON) tools/install.py $@ $(DESTDIR)
