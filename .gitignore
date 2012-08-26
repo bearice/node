@@ -14,7 +14,7 @@ node_g
 /.cproject
 
 /out
-
+/out_arm
 # various stuff that VC++ produces/uses
 Debug/
 Release/
