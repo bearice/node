@@ -15,6 +15,7 @@ node_g
 
 /out
 /out_arm
+/deps/v8/*
 # various stuff that VC++ produces/uses
 Debug/
 Release/
