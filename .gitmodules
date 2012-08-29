@@ -1,3 +1,6 @@
 [submodule "deps/uv"]
 	path = deps/uv
 	url = git://github.com/joyent/libuv.git
+[submodule "deps/v8"]
+	path = deps/v8
+	url = git://github.com/v8/v8.git
